@@ -1,7 +1,7 @@
 # SeleniumPythonCardTest
 Test all possible scenario of card payment
 
-1.No details just click on submit button/
+1.No details just click on submit button//
 2.Only name
 3.Only email
 4.Only card details
