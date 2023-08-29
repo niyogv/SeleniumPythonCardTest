@@ -21,7 +21,7 @@ class Test_setting():
     @pytest.fixture()
     def test_invoke(self):
         self.driver=webdriver.Chrome()
-        self.driver.get('https://qa-dev.iome.ai')
+        self.driver.get('https://example.com')
         self.driver.maximize_window()
         self.driver.find_element(By.TAG_NAME, 'button').click()
         self.driver.find_element(By.XPATH, '//input[@placeholder="Username"]').send_keys(user)
